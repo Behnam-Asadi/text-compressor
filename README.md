@@ -8,5 +8,4 @@ Our method involves feeding our transformer-based model with a document, word-by
 
 <div align="center">
 <img  src="src/img/framework.png"  align = 'center' width="700">
-  <figcaption><br>Compression Framework</figcaption>
 </div>
