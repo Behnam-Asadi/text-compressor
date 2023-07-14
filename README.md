@@ -11,3 +11,12 @@ Our method involves feeding our transformer-based model with a document, word-by
 </div>
 
 For the reconstruction phase, we merely reverse the encoding process: we feed the compressed data into the variable-length integer or arithmetic decoder to obtain the index associated with the model's sorted next-word prediction. Consequently, we can route each decoded word back through the model to retrieve each succeeding word.
+
+
+# Results
+
+As observed in Figure 2 and Table 1 regarding the compression ratio, our neural methodologies outperform our baseline strategies. Both the variable-length integer and arithmetic encoding neural techniques result in a compression of the input text by over 4 times, which is notably higher compared to the 2 times compression achieved by our Gzip and statistical encoding baselines.
+<div align="center">
+<img  src="src/img/baseline-comparison.png"  align = 'center' width="700">
+</div>
+
