@@ -25,6 +25,15 @@ The following diagrams further depict how the window size impacts the speed of n
 
 Contrarily, changes in window sizes didn't show substantial effects on the compression ratio. Irrespective of the window size, the compression ratio hovered around 4x, with a slight enhancement from 3.86 to 4.23 between window sizes of k = 32 and k = 256 (Fig 4). Figure 5 illustrates the balancing act between compression ratio and processing time.
 
+
+<div align="center">
+<img  src="src/img/window-vs-time.png"  align = 'center' width="400">
+</div>
+
+<div align="center">
+<img  src="src/img/window-vs-ratio-mean.png"  align = 'center' width="400">
+</div>
+
 <div align="center">
 <img  src="src/img/ratio-vs-time.png"  align = 'center' width="400">
 </div>
