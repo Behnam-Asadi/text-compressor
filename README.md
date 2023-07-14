@@ -9,3 +9,5 @@ Our method involves feeding our transformer-based model with a document, word-by
 <div align="center">
 <img  src="src/img/framework.png"  align = 'center' width="700">
 </div>
+
+For the reconstruction phase, we merely reverse the encoding process: we feed the compressed data into the variable-length integer or arithmetic decoder to obtain the index associated with the model's sorted next-word prediction. Consequently, we can route each decoded word back through the model to retrieve each succeeding word.
