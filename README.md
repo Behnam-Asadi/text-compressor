@@ -27,5 +27,5 @@ Contrarily, changes in window sizes didn't show substantial effects on the compr
 
 
 <div align="center">
-<img  src="src/img/merge-window-time-ratio.png"  align = 'center' width="900">
+<img  src="src/img/merge-window-time-ratio.png"  align = 'center' width="1000">
 </div>
