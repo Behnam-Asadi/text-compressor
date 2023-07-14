@@ -20,3 +20,12 @@ As observed in Figure 2 and Table 1 regarding the compression ratio, our neural 
 <img  src="src/img/baseline-comparison.png"  align = 'center' width="700">
 </div>
 
+
+The following diagrams further depict how the window size impacts the speed of neural compression. Utilizing smaller windows resulted in enhanced compression speeds, with a slight anomaly that the speed was marginally better for k = 64 in comparison to k = 32 (Fig 3). With a window size greater than 64 (k > 64), the compression speed seems to increase in a super-linear fashion. The average processing time per document for k = 128 is approximately 1.5 times slower than for k = 64, whereas for k = 256 it's approximately 2.5 times faster than k = 128.
+
+Contrarily, changes in window sizes didn't show substantial effects on the compression ratio. Irrespective of the window size, the compression ratio hovered around 4x, with a slight enhancement from 3.86 to 4.23 between window sizes of k = 32 and k = 256 (Fig 4). Figure 5 illustrates the balancing act between compression ratio and processing time.
+
+<div align="center">
+<img  src="src/img/ratio-vs-time.png"  align = 'center' width="700">
+</div>
+
