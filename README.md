@@ -33,11 +33,5 @@ Contrarily, changes in window sizes didn't show substantial effects on the compr
 While Gzip demonstrates optimal performance on large files, the size of the original file doesn't seem to significantly influence the compression performance of our neural method (Fig 6). However, Figure 7 does highlight a trend where the variance of the compression ratio diminishes as the file size grows.
 
 <div align="center">
-<img  src="src/img/size-vs-ratio-mean.png"  align = 'center' width="500">
-</div>"  align = 'center' width="700">
-</div>
-
-<div align="center">
-<img  src="src/img/size-vs-ratio-variance.png"  align = 'center' width="500">
-</div>"  align = 'center' width="700">
+<img  src="src/img/size-vs-ratio.png"  align = 'center' width="750">
 </div>
